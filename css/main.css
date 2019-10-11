@@ -22,20 +22,19 @@ body{
      /* border: solid green 2px ; */
 }
 
-.self-intro {
-     /* border: red solid 2px; */
+.self-intro > h1 {
+     font-size: 124px;
      width: 60%;
      position: relative;
      left: 30%;
+     top: 20px;
 }
 
-.intro-paragraph {
-     /* border:solid blue 2px ; */
-     width: 50%;
+
+.intro-paragraph > p {
+     font-size: 23px;
      position: relative;
      left: 20%;
-}
-
-.self-intro > h1 {
-     font-size: 124px;
+     top: 30%;
+     width: 50%;
 }
