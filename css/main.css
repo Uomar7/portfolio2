@@ -27,7 +27,7 @@ body{
      width: 60%;
      position: relative;
      left: 30%;
-     top: 20px;
+     top: 5px;
 }
 
 #span {
@@ -119,9 +119,8 @@ body{
 
 .abouinformation {
      display: grid;
-     grid-template-columns: 40% 60%;
+     grid-template-columns:50% 50%;
 }
-
 @keyframes spin {
      from {
           transform: rotate(0deg);
