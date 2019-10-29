@@ -54,8 +54,9 @@
                          <li>Bootstrap</li>
                     </ul>
                     <p>
-                         <a href="https://uomar7.github.io/github_rep/" class="btn btn-sm btn1" target="blank">Go to Site</a> <a href="https://github.com/Uomar7/github_rep"
-                              class="btn btn-sm btn2" target="blank">View code</a>
+                         <a href="https://uomar7.github.io/github_rep/" class="btn btn-sm btn1" target="blank">Go to
+                              Site</a> <a href="https://github.com/Uomar7/github_rep" class="btn btn-sm btn2"
+                              target="blank">View code</a>
                     </p>
                </div>
                <div class="neighbour_info">
@@ -69,8 +70,9 @@
                          <li>Bootstrap</li>
                          <li>CSS</li>
                     </ul>
-                    <a href="https://ne1ghbour.herokuapp.com" class="btn btn-sm btn1" target="blank">Go to Site</a> <a href="https://github.com/Uomar7/neighbourhood" class="btn btn-sm btn2"
-                         target="blank">View code</a>
+                    <a href="https://ne1ghbour.herokuapp.com" class="btn btn-sm btn1" target="blank">Go to Site</a> <a
+                         href="https://github.com/Uomar7/neighbourhood" class="btn btn-sm btn2" target="blank">View
+                         code</a>
                </div>
                <div class="neighbour_image">
                     <img src="./images/neighbourhood.png" class="img-fluid img-thumbnail" alt="">
@@ -80,36 +82,40 @@
 
      <footer>
 
-          <div class="connect">
-               <div class="connect_intro">
-                    <h5 style="text-align: center;">Lets Connect</h5>
-               </div>
-               <div class="connect_info container">
-                    <div class="me">
-                         <img src="images/new.png" class="img-fluid img-thumbnail" alt="A pic of umar Ngare">
-                         <p>Lets meet have a cup of coffee and talk more. <br>
-                              Tel (<i class="fas fa-phone"></i>): <a href="tel:+254791557666">+254791557666</a> <br>
-                              Email (<i class="fas fa-at"></i>): <a
-                                   href="mailto:umar.ngare@gmail.com">umar.ngare@gmail.com</a> <br>
-                              Linkedin: <a href="https://www.linkedin.com/in/umarngare/" target="_blank" rel="noopener noreferrer">Umar Ngare</a><br>
-                              Github: <a href="https://github.com/Uomar7" target="_blank" rel="noopener noreferrer">Uomar7</a>
-                         </p>
-                    </div>
+          <h5 style="text-align: center;">Connect with me</h5>
+          <div class="connect container">
+               <div class="contact">
                     <address>
-                         <!-- <p id="visit">Visit </p> -->
                          <p>Oloitoktok Court <i class="fas fa-map-marker-alt"></i></p>
-                         <p>Nairobi, 00100</p>
-                         <p>Kenya</p>
+                         <p>Nairobi, Kenya</p>
+                         <!-- <p>Tel (<i class="fas fa-phone"></i>): <a href="tel:+254791557666">+254791557666</a></p> -->
+                         <p> Email: <a href="mailto:umar.ngare@gmail.com">umar.ngare@gmail.com</a></p>
+                         <p> Linkedin: <a href="https://www.linkedin.com/in/umarngare/" target="_blank"
+                                   rel="noopener noreferrer">Umar Ngare</a></p>
+                         <p> Github: <a href="https://github.com/Uomar7" target="_blank"
+                                   rel="noopener noreferrer">Uomar7</a></p>
                     </address>
+               </div>
+               <div class="form">
+                    <form>
+                         <p><input type="email" class="form-control" id="fro" placeholder="Email"></p>
+                         <p><input type="text" class="form-control" id="subj" placeholder="Subject"></p>
+                         <p><textarea id="bod" class="form-control" rows="3" placeholder="Lets talk"></textarea></p>
+                         <p><input type="button" class="btn btn-md btn-sm" id="submit" value="Send"  onclick="sendEmail()"></p>
+                    </form>
                </div>
           </div>
           <div class="socialmedia">
-               <p> <a href="https://www.linkedin.com/in/umarngare/" target="blank"><i class="fab fa-linkedin-in"></i></a></p>
-               <p><a href="https://github.com/Uomar7" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt"></i></a></p>
-              <p> <a href="https://www.facebook.com/uomarearlie" target="blank"><i class="fab fa-facebook-f"></i></a></p>
-              <p> <a href="https://www.instagram.com/u.o.m.a.r_officiel/" target="blank"><i class="fab fa-instagram"></i></a></p>
-              <p> <a href="tel:+254791557666"><i class="fas fa-phone"></i></a></p>
-              <p> <a href="mailto:umar.ngare@gmail.com"><i class="fas fa-at"></i></a></p>
+               <p> <a href="https://www.linkedin.com/in/umarngare/" target="blank"><i
+                              class="fab fa-linkedin-in"></i></a></p>
+               <p><a href="https://github.com/Uomar7" target="_blank" rel="noopener noreferrer"><i
+                              class="fab fa-github-alt"></i></a></p>
+               <p> <a href="https://www.facebook.com/uomarearlie" target="blank"><i class="fab fa-facebook-f"></i></a>
+               </p>
+               <p> <a href="https://www.instagram.com/u.o.m.a.r_officiel/" target="blank"><i
+                              class="fab fa-instagram"></i></a></p>
+               <p> <a href="tel:+254791557666"><i class="fas fa-phone"></i></a></p>
+               <p> <a href="mailto:umar.ngare@gmail.com"><i class="fas fa-at"></i></a></p>
           </div>
 
           <p style="letter-spacing: 2px; ;text-align: center; font-size: 14px;">Copyright &#169 2019 Umar Ngare</p>
@@ -117,6 +123,17 @@
 
      <!-- Scipts to be used. -->
      <script src="./js/main.js"></script>
+     <!-- ! Email script -->
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+     </script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+     </script>
 </body>
 
 </html>

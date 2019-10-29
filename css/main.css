@@ -1,6 +1,7 @@
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 /* font-family: 'Fjalla One', sans-serif; */
 
 * {
@@ -24,7 +25,7 @@ body{
 }
 
 .self-intro > h1 {
-     font-size: 164px;
+     font-size: 130px;
      width: 50%;
      position: relative;
      left: 30%;
@@ -216,32 +217,10 @@ footer h4 {
 
 }
 
-.connect_intro h5 {
-     color: rgb(78, 77, 77);
-}
 
 address  {
      align-items: center;
 }
-
-.connect_info {
-     display: flex;
-     justify-content: space-evenly;
-}
-
-.me {
-     /* border: solid red 1px; */
-     display:flex;
-     width: 400px;
-     height: 150px;
-     align-items: center;
-}
-
-
-.me img{
-     width: 120px;
-     height: auto;
-} 
 
 .socialmedia {
      /* display: flex; */
@@ -260,18 +239,46 @@ address  {
      color: rgb(106, 106, 236);
 }
 
-.me a {
-     color: rgb(121, 121, 121);
-}
-
-.me a:hover{
-     text-decoration: dashed;
-     color: rgb(83, 76, 77);
-}
-
-
 .socialmedia a:hover{
      color: crimson;
+}
+
+.contact {
+     color: rgb(207, 207, 207);
+     text-align: center;
+}
+
+.contact a{
+     color: rgb(131, 129, 129);
+}
+
+.connect {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+
+.form {
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+#subj ,
+#fro {
+     width: 50%;
+}
+
+#bod {
+    width: 70%; 
+}
+
+#submit {
+     background:  rgb(248, 248, 248);
+}
+
+#submit:hover {
+     background: rgb(20, 20, 20);
+     color: white;
 }
 
 @keyframes spin {
