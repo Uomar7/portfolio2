@@ -359,8 +359,8 @@ address {
 
      body {
           width: 100%;
-          overflow: hidden;
           position: relative;
+          overflow-x: hidden;
      }
 
      .header {
