@@ -9,12 +9,12 @@
      padding: 0;
 }
 
-body{
+body {
      width: 100%;
      font-family: 'Fjalla One', sans-serif;
 }
 
-.header  {
+.header {
      width: 100%;
      height: 97vh;
      display: grid;
@@ -24,7 +24,7 @@ body{
      /* border: solid green 2px ; */
 }
 
-.self-intro > h1 {
+.self-intro>h1 {
      font-size: 130px;
      width: 50%;
      position: relative;
@@ -40,7 +40,7 @@ body{
      position: relative;
 }
 
-.intro-paragraph > p {
+.intro-paragraph>p {
      font-size: 23px;
      position: absolute;
      left: 20%;
@@ -55,7 +55,7 @@ body{
      top: 55%;
 }
 
-.button:hover{
+.button:hover {
      background: rgb(20, 20, 20);
      color: white;
 }
@@ -71,8 +71,8 @@ body{
 }
 
 .spinner {
-     width: 50px;
-     height: 50px;
+     width: 25px;
+     height: 25px;
      /* border: solid 2px rgb(31, 180, 226); */
      position: absolute;
      top: 0;
@@ -89,8 +89,8 @@ body{
      content: '';
      /* border: solid white 3px; */
      position: absolute;
-     width: 40px;
-     height: 40px;
+     width: 20px;
+     height: 20px;
      top: 0;
      bottom: 0;
      left: 0;
@@ -101,19 +101,19 @@ body{
      animation: antispin 1s infinite linear;
 }
 
-#overlay> p{
+#overlay>p {
      position: absolute;
-     top: 50%;
-     left: 52%;
+     top: 49%;
+     left: 50.5%;
      transform: translate(0%, -50%);
      animation: colorShow 1s infinite linear;
 }
 
-#aboutMe{
+#aboutMe {
      margin-top: 20px;
 }
 
-.abouhead > h3 {
+.abouhead>h3 {
      text-align: center;
      color: rgb(207, 207, 207);
      text-decoration: overline black;
@@ -121,7 +121,7 @@ body{
 
 .abouinformation {
      display: grid;
-     grid-template-columns:50% 50%;
+     grid-template-columns: 50% 50%;
 }
 
 .github_image {
@@ -131,31 +131,32 @@ body{
 .github_info {
      /* border: solid red 2px; */
      /* background: black; */
-     color:rgb(207, 207, 207);
+     color: rgb(207, 207, 207);
      margin-left: 10px;
 }
 
-.github_info > h4,p {
+.github_info>h4,
+p {
      margin: 10px;
 }
 
-.github_info > ul{
+.github_info>ul {
      margin-left: 40px;
 }
 
-.btn1{
-     background: rgb(207, 207, 207) ;
+.btn1 {
+     background: rgb(207, 207, 207);
      color: rgb(107, 50, 29);
 }
 
 .btn1:hover {
-     color:rgb(207, 207, 207);
+     color: rgb(207, 207, 207);
      background: rgb(107, 50, 29);
 }
 
 .btn2 {
      background: black;
-     color:rgb(207, 207, 207);
+     color: rgb(207, 207, 207);
 }
 
 .btn2:hover {
@@ -167,17 +168,17 @@ body{
      margin-left: 10px;
 }
 
-.neighbour_image ,
+.neighbour_image,
 .neighbour_info {
      margin-top: 20px;
      margin-bottom: 20px;
 }
 
-.neighbour_info > ul {
+.neighbour_info>ul {
      margin-left: 30px;
 }
 
-.neighbour_info > p {
+.neighbour_info>p {
      margin-left: 0px;
 }
 
@@ -218,7 +219,7 @@ footer h4 {
 }
 
 
-address  {
+address {
      align-items: center;
 }
 
@@ -237,10 +238,40 @@ address  {
 
 .socialmedia a {
      color: rgb(106, 106, 236);
+     padding: 0px 4px;
+     border-radius: 2px;
 }
 
-.socialmedia a:hover{
-     color: crimson;
+#in:hover {
+     color: #fff;
+     background: #0E76A8;
+}
+
+#git:hover {
+     color: #fff;
+     background: #24292e;
+}
+
+
+#fb:hover {
+     color: #fff;
+     background: #1778F2;
+}
+
+
+#ig:hover {
+     color: #fff;
+     background: linear-gradient(to bottom, #515BD4, #8134AF, #DD2A7B, #F58529, #FEDA77);
+}
+
+#gml:hover {
+     color: #fff;
+     background: linear-gradient(to right, #3369E8, #D50F25, #EEB211);
+}
+
+#cll:hover {
+     color: #fff;
+     background: #24292e;
 }
 
 .contact {
@@ -248,7 +279,7 @@ address  {
      text-align: center;
 }
 
-.contact a{
+.contact a {
      color: rgb(131, 129, 129);
 }
 
@@ -258,17 +289,17 @@ address  {
      transform: translateX(-50%);
 }
 
-#subj ,
+#subj,
 #fro {
      width: 50%;
 }
 
 #bod {
-    width: 70%; 
+     width: 70%;
 }
 
 #submit {
-     background:  rgb(248, 248, 248);
+     background: rgb(248, 248, 248);
 }
 
 #submit:hover {
@@ -310,7 +341,61 @@ address  {
      from {
           color: white;
      }
+
      to {
-          color:red;
+          color: red;
      }
+}
+
+@media screen and (max-width: 750px) {
+
+     * {
+          padding: 0;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+
+
+     body {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+     }
+
+     .header {
+          display: block;
+          height: 23vh;
+          width: 100%;
+     }
+
+     .self-intro {
+          width: 100%;
+          position: relative;
+          align-items: center;
+     }
+
+     .self-intro>h1 {
+          font-size: 35px;
+          width: 100%;
+          left: 0%;
+          padding: 10px;
+     }
+
+     .intro-paragraph>p {
+          font-size: 14px;
+          left: 0%;
+          top: 0;
+          width: 100%;
+          padding: 5px;
+     }
+
+
+     .abouinformation {
+          display: block;
+     }
+
+     #aboutMe {
+          font-size: 14px;
+     }
+
 }
