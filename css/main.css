@@ -365,7 +365,7 @@ address {
 
      .header {
           display: block;
-          height: 23vh;
+          height: 30vh;
           width: 100%;
           margin: 0;
           position: relative;
@@ -390,6 +390,7 @@ address {
           top: 0;
           width: 100%;
           padding: 5px;
+          position: relative;
      }
 
 
