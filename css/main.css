@@ -252,11 +252,6 @@ address  {
      color: rgb(131, 129, 129);
 }
 
-.connect {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-}
-
 .form {
      position: relative;
      left: 50%;
