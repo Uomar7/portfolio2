@@ -376,12 +376,12 @@ address {
      }
 
      .self-intro>h1 {
-          font-size: 35px;
+          font-size: 30px;
           width: 100%;
           left: 0%;
           padding: 10px;
      }
-     
+
      .intro-paragraph>p {
           font-size: 14px;
           left: 0%;
@@ -397,6 +397,8 @@ address {
 
      #aboutMe {
           font-size: 14px;
+          margin: 0;
+          padding: 10px;
      }
 
 }
