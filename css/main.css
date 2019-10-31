@@ -49,16 +49,10 @@ body {
      width: 50%;
 }
 
-.button {
-     background: white;
-     position: relative;
-     left: 38%;
-     top: 55%;
-}
 
-.button:hover {
-     background: rgb(20, 20, 20);
+#download:hover {
      color: white;
+     text-decoration: none;
 }
 
 #overlay {
@@ -176,7 +170,7 @@ p {
 }
 
 .neighbour_info>ul {
-     margin-left: 30px;
+     margin-lefat: 30px;
 }
 
 .neighbour_info>p {
@@ -238,7 +232,7 @@ address {
 }
 
 .socialmedia a {
-     color: rgb(106, 106, 236);
+     color: ragb(106, 106, 236);
      padding: 0px 4px;
      border-radius: 2px;
 }
@@ -391,6 +385,7 @@ address {
           width: 100%;
           padding: 5px;
           position: relative;
+          padding-bottom: 0;
      }
 
 
@@ -402,6 +397,7 @@ address {
           font-size: 14px;
           margin: 0;
           padding: 10px;
+          padding-bottom: 0;
      }
 
 }
