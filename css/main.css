@@ -367,6 +367,8 @@ address {
           display: block;
           height: 23vh;
           width: 100%;
+          margin: 0;
+          position: relative;
      }
 
      .self-intro {
