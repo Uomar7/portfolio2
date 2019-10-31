@@ -12,6 +12,7 @@
 body {
      width: 100%;
      font-family: 'Fjalla One', sans-serif;
+     position: relative;
 }
 
 .header {
